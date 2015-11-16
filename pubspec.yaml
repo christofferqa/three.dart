@@ -18,17 +18,8 @@ dependencies:
     git: git://github.com/cgrabowski/datgui.git
   stats:
     git: git://github.com/Dartist/stats.dart.git
+  runtime:
+    path: ../../../web_runtime
 dev_dependencies:
-  hop: '>=0.30.0 <0.31.0'
+  # hop: '>=0.30.0 <0.31.0'
   unittest: any
-  dynamic_type_inference:
-    path: ../../../dynamic_type_inference
-transformers:
-- dynamic_type_inference:
-    instrumentationMode: WEB_TYPE_INFERENCE
-    entries: []
-    staticEntry: "example/web_gl_cubes/web_gl_cubes.dart"
-    package: "three"
-- $dart2js:
-    commandLineOptions: [--output-type=dart]
-    $exclude: ["bin", "example", "lib", "test", "tool", "web"]
