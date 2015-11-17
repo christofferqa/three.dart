@@ -8,9 +8,9 @@ import 'package:vector_math/vector_math.dart';
 // 150,000 cubes
 // 12 triangles per cube (6 quads)
 
-const TRIANGLES = 12 * 150000;
+const TRIANGLES = 12;
 
-const D = 10.0;
+const D = 1000.0;
 
 Element container;
 
