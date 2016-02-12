@@ -15,11 +15,9 @@ dependencies:
   browser: '>=0.9.0 <0.11.0'
   vector_math: '>=1.3.5 <1.5.0'
   datgui:
-    git: git://github.com/cgrabowski/datgui.git
+    git: https://github.com/cgrabowski/datgui.git
   stats:
-    git: git://github.com/Dartist/stats.dart.git
-  runtime:
-    path: ../../../web_runtime
+    git: https://github.com/dartist/stats.dart.git
 dev_dependencies:
   # hop: '>=0.30.0 <0.31.0'
   unittest: any
